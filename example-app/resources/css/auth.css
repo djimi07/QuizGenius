@@ -1,0 +1,76 @@
+
+
+.auth_form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.auth_form .form-group
+{
+    width: 50%;
+
+}
+
+.auth_form label
+{
+    color: white;
+    font-weight: 300;
+
+}
+
+.auth_form input
+{
+    border-radius: 20px;
+}
+
+
+.error_login
+{
+    color:red;
+}
+
+
+
+.subscribe_suggestion
+{
+    color: white;
+
+}
+
+.subscribe_suggestion a
+{
+    color:#FE947A;
+}
+
+
+
+
+
+.submit_group
+{
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+.submit_group button
+{
+    color: white;
+    background-color: #FE947A;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+
+    margin-right: 20px;
+
+}
+
+.submit_group button:hover
+{
+    color:white;
+}

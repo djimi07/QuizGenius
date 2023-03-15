@@ -1,0 +1,192 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    background-color: #352865;
+}
+
+#app
+{
+    background-color: #352865;
+
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+.content
+{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.card_row
+{
+    margin-top:100px;
+
+    padding-bottom: 20px;
+
+}
+
+.card_col
+{
+    background-color: #554591;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 3px 4px 4px rgb(0 0 0 / 25%);
+
+    padding: 0px;
+}
+
+.card_head
+{
+    background-color: #45377B;
+
+}
+
+.card_head h2
+{
+    color: #FE947A;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.card_col img
+{
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+
+
+.button_block
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.button_block a
+{
+    width: fit-content;
+    background-color: #FE947A;
+    border-radius: 100px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.button_block a:hover
+{
+    color:white;
+}
+
+
+.button_block .admin
+{
+    background-color: #45377b;
+    border: 1px #352764 solid;
+
+}
+
+
+
+
+
+
+
+.filter_div
+{
+    width: 60%;
+    position: relative;
+
+}
+
+.filter_div input
+{
+    border-radius: 20px;
+    
+}
+
+.filter_div i
+{
+    top: 12px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.scroll_button
+{
+    border-radius: 5px;
+    background-color: #45377B;
+    height: 200px;
+    overflow: scroll;
+    border: 2px #352764 solid;
+    padding: 10px;
+}
+
+
+
+
+.admin_head
+{
+    position: relative;
+}
+
+.start_head_i
+{
+    color: #FE947A;
+    z-index: 2;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+
+
+.red_input
+{
+    border:1px red solid;
+}
+
+.error_form
+{
+    color:red !important;
+    margin: 5px 0px 0px 0px;
+    font-weight: 200;
+    
+}
+
+.list_spinner
+{
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}

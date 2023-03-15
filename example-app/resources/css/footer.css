@@ -1,0 +1,45 @@
+
+.footer_block
+{
+    
+}
+
+.footer_shape
+{
+    
+
+    width: 100%;
+    position: relative;
+    bottom: -5px;
+    z-index: 1;
+}
+
+
+.footer
+{
+    background-color: #554591;
+    position: relative;
+    z-index: 2;
+
+}
+
+.footer_row
+{
+
+
+}
+
+.footer_col
+{
+    text-align: center;
+
+}
+
+.footer_col p
+{
+    text-align: center;
+    color: white;
+
+    margin: 0px;
+    padding: 10px;
+}

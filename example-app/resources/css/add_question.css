@@ -1,0 +1,159 @@
+.question_div
+{
+    width: 70%;
+}
+
+.question_div input
+{
+    
+}
+
+
+.upload_image
+{
+    margin-top: 20px;
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border: 3px #554591 solid;
+
+    
+
+}
+
+.upload_image input
+{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 3;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.background_upload 
+{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: #544590;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.background_upload i
+{
+    font-size: 5em;
+    color: #544590;
+}
+
+.background_upload span
+{
+    color: #544590;
+    margin-top: 10px;
+}
+
+
+
+
+
+.add_propositions
+{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.add_propositions p
+{
+    color: white;
+    font-size: 1.4em;
+}
+
+
+
+.add_propositions div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.add_propositions label
+{
+    display: flex;
+}
+
+
+
+.add_propositions span
+{
+    color: white;
+    background-color: #554591;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.add_propositions span:hover
+{
+    color:white;
+}
+
+
+.add_propositions input
+{
+    border-radius: 0px;
+    
+}
+
+
+.add_propositions button
+{
+    background-color: #554591;
+    border-radius: 200px;
+    color: white;
+}
+
+.add_propositions button:hover
+{
+    color:white;
+}
+
+
+.submit_div
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.submit_div button
+{
+    background-color: #FE947A;
+    border-radius: 200px;
+    color: white;
+}
+
+.submit_div button:hover
+{
+    color:white;
+}
+
+
+
+
+
+.image_view
+{
+    width: 100%;
+    height: 100%;
+}

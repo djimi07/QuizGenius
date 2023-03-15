@@ -1,0 +1,23 @@
+
+.list_of_responses
+{
+}
+
+.card_response
+{
+    background-color: #554591;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px #352764 solid;
+}
+
+
+.proposition_justification .read_only
+{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

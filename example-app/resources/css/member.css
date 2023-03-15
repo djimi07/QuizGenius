@@ -1,0 +1,74 @@
+.member_content
+{
+    margin-top: 20px;
+    padding: 0px 10% 20px 10%;
+}
+
+.member_content .profile
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.profile .user_info
+{
+    margin-left: 5px;
+}
+
+.profile .user_i
+{
+    align-self: center;
+    font-size: 3em;
+    color: white;
+    
+}
+
+.profile .user_p
+{
+    margin: 0px;
+    color: white;
+
+}
+
+
+.profile .is_admin
+{
+    color: #FE947A;
+    margin: 0px;
+    
+}
+
+
+
+
+
+.referal_block
+{
+    margin-top: 30px;
+}
+
+.referal_label
+{
+    color: white;
+}
+
+.referal_link
+{
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.referal_link i
+{
+    padding: 5px;
+    border-right: 1px black solid;
+
+}
+
+.referal_link span
+{
+
+}
